@@ -541,6 +541,11 @@ hr{border-top:1px solid #fff;}
 .card-content.pt-40 {
     padding-top: 40px;
 }
+@media only screen and (min-width: 768) and (max-width: 991px) {
+    #v-card-holder #v-card #profile {
+        right: -187px;
+    }
+}
 @media only screen and (min-width: 768px) {
     #timeline-experience-t::before {
         left: 50%;
