@@ -399,6 +399,7 @@
         initClientsSliders();
         initVideoPlayAndClose();
         initMail();
+        $('#languages a.active').next().click();
         // initMapsNormal();
     });
     jQuery(window).on('load', function() {
