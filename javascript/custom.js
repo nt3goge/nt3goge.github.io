@@ -110,7 +110,9 @@
                 var domain_name = $(this).children('.title-portfolio').text().toLowerCase();
                 var domain_extensions = $(this).children('.title-portfolio').attr('data-domain');
 
-                window.open('http://' + domain_name + '.' + domain_extensions, '_blank');
+                if (typeof domain_extensions !== 'undefined') {
+                    window.open('http://' + domain_name + '.' + domain_extensions, '_blank');
+                }
             });
         }
         function initSkills() {

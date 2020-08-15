@@ -30,7 +30,7 @@ video{border:3px solid black;}
 .hide-overflow{overflow:hidden !important;}
 .toast{background-color:#89ba1c;}
 .card{position:relative;background-color:#fff;transition:box-shadow .25s;-webkit-transition:box-shadow .25s;border-radius:0 !important;margin:8px 0;}
-.card .card-content{padding:100px 40px 40px;border-radius:0 0 2px 2px;}
+.card .card-content{padding:40px;border-radius:0 0 2px 2px;}
 .card .card-content p{margin:0;color:inherit;text-align: justify;}
 .modal{padding-right:0 !important;padding-left:0 !important;}
 .modal .modal-content{border-radius:0 !important;background-color:#fff;color:#616161;}
@@ -222,7 +222,9 @@ body.scale-effect .btn-holder .btn-play{transform:scale(28);-webkit-transform:sc
 @media (min-width:992px){#portfolios #portfolios-card .tab-content .big{width:66.6%;}
 }
 #portfolios #portfolios-card .tab-content .grid{position:relative;margin:0 auto;padding:5px 7px 7px 5px;list-style:none;text-align:center;cursor: pointer;}
+#portfolios #portfolios-card .tab-content .default-cursor{cursor: initial;}
 #portfolios #portfolios-card .tab-content .grid figure{position:relative;margin:0;width:100%;background:#fff;text-align:center;cursor:pointer;box-shadow:0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);overflow:hidden !important;padding:25px !important;}
+#portfolios #portfolios-card .tab-content .default-cursor figure{cursor:initial}
 /* #portfolios #portfolios-card .tab-content .grid figure img{position:relative;display:block;width:100%;opacity:0.8;} */
 #portfolios #portfolios-card .tab-content .grid figure figcaption{padding:2em;color:#fff;text-transform:uppercase;font-size:1.25em;-webkit-backface-visibility:hidden;backface-visibility:hidden;}
 #portfolios #portfolios-card .tab-content .grid figure figcaption > a{z-index:1000;text-indent:200%;white-space:nowrap;font-size:0;opacity:0;}
@@ -233,7 +235,7 @@ body.scale-effect .btn-holder .btn-play{transform:scale(28);-webkit-transform:sc
 #portfolios #portfolios-card .tab-content .grid figure h2 i{display:block;padding:9px;margin-top:24px;font-size:48px;}
 #portfolios #portfolios-card .tab-content .grid figure p{margin:0;letter-spacing:1px;font-size:56.5%;}
 /* @media screen and (min-width:540px) and (max-width:766px){#portfolios #portfolios-card .tab-content .grid{max-width:50%;} */
-}
+/*}*/
 #portfolios #portfolios-card .tab-content figure.port-effect-up{}
 #portfolios #portfolios-card .tab-content figure.port-effect-up figcaption::before{position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0, 0, 0, 0.7);content:'';opacity:0;-webkit-transform:translate3d(0, 50%, 0);transform:translate3d(0, 50%, 0);-webkit-transition:opacity 0.35s, -webkit-transform 0.35s;transition:opacity 0.35s, transform 0.35s;}
 #portfolios #portfolios-card .tab-content figure.port-effect-up h2{position:absolute;top:55%;left:0;width:100%;color:rgba(72, 76, 97, 0.22);-webkit-transition:-webkit-transform 0.35s, color 0.35s;transition:transform 0.35s, color 0.35s;-webkit-transform:translate3d(0, -50%, 0);transform:translate3d(0, -50%, 0);}
@@ -418,6 +420,7 @@ footer{width:100%;height:auto;color:#fff;margin-top:-18px;margin-bottom:9px;}
 .single-page .project-detail p strong{padding:12px;}
 .single-page a{color:#fff;}
 hr{border-top:1px solid #fff;}
+h6.position-work {font-size: 1.2em;font-weight: bold;}
 .single-footer{margin:0;}
 #bl-education, #bl-objective {
     position: relative;
