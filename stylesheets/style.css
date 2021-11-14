@@ -571,6 +571,10 @@ h6.position-work {font-size: 1.2em;font-weight: bold;}
     }
 }
 @media only screen and (min-width: 768px) {
+    #c > div:last-child {
+        margin-left: 33.33333333%!important;
+    }
+
     #timeline-experience-t::before {
         margin-left: -2px;
         opacity: 0.4;
